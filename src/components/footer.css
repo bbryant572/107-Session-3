@@ -1,0 +1,17 @@
+
+.footer {
+    background: lightgrey;
+}
+
+.footer h5 {
+    color: rgb(60, 136, 111);
+    padding-top: 12px;
+    margin-bottom: 8px;
+}
+
+.footer h6 {
+    color: rgb(175, 50, 175);
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

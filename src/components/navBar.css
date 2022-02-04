@@ -1,0 +1,14 @@
+.navbar-container {
+    color: darkblue;
+    background-color: #CCFFCB;
+}
+
+.navbar-container h1 {
+    background-color: #CCFFCB;
+}
+
+.navbar-text {
+    margin-left: 200px;
+    font-size: 30px;
+    color: white;
+}

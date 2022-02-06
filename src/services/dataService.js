@@ -5,7 +5,7 @@ var catalog = [
     img: "barrel01.jpg",
     descrition:
       "Viking Raven Steel 90% tungsten barrel. Available in 23g, 24g, 26g",
-    price: 114.99,
+    price: 114.0,
     category: "barrel",
   },
   {
@@ -23,7 +23,7 @@ var catalog = [
     img: "barrel03.jpg",
     descrition:
       "Super Grip steel 85% tungsten barrel. Availble in 20g, 22g, 24g or 26g.",
-    price: 21.59,
+    price: 21.0,
     category: "barrel",
   },
   {
@@ -63,7 +63,7 @@ var catalog = [
     title: "Mission Temple Flight",
     img: "flight02.jpg",
     descrition: "Mission Temple 100 Micron Standard",
-    price: 2.99,
+    price: 2.0,
     category: "flights",
   },
   {

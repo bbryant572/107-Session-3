@@ -1,3 +1,7 @@
 .navbar {
-    background-color: rgb(35, 141, 136);
+    background-color: black;
+}
+
+.navbar .badge {
+    margin-right: 5px;
 }

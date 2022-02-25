@@ -4,6 +4,10 @@
     opacity: 0.8;
 }
 
+h1 {
+    color: white;
+}
+
 h3 {
     color: rgb(89, 252, 111);
 }

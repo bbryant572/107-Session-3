@@ -1,5 +1,12 @@
+.cart {
+    background-image: url("https://t3.ftcdn.net/jpg/01/06/62/38/240_F_106623813_tHLITzIvrhBJA91CacYboSPU7NpVRyVB.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 540px;
+}
+
 .cart h1 {
-    color: black;
+    color: red;
 }
 
 .products li{

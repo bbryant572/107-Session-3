@@ -1,6 +1,7 @@
 import "./cart.css";
 import { useContext, useState } from "react";
 import storeContext from "../store/storeContext";
+import CartItem from "./cartItem";
 
 const Cart = () => {
   const { cart } = useContext(storeContext);
@@ -11,8 +12,8 @@ const Cart = () => {
 
       <div className="products">
         <ul>
-          {cart.map((prod) => (
-            <li key={prod._id}>{prod.title}</li>
+          {cart.map((prod, index) => (
+            <CartItem key={index} data={prod} />
           ))}
         </ul>
       </div>

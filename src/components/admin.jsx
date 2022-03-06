@@ -97,10 +97,7 @@ const Admin = () => {
               />
             </div>
 
-            <button
-              onClick={registerProduct}
-              className="btn btn-outline-success"
-            >
+            <button onClick={registerProduct} className="btn btn-success">
               Register Product
             </button>
           </div>

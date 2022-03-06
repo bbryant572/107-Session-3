@@ -2,6 +2,7 @@ import "./navBar.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import storeContext from "../store/storeContext";
+import Weather from "./weather";
 
 const NavBar = () => {
   const { cart, user } = useContext(storeContext);
@@ -41,6 +42,7 @@ const NavBar = () => {
               </Link>
             </li>
           </ul>
+          <Weather />
           <form className="d-flex">
             <Link className="btn btn-outline-light primary" to="/cart">
               <span className="badge bg-secondary">{cart.length}</span>

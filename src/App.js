@@ -19,13 +19,15 @@ function App() {
         <BrowserRouter>
           <NavBar></NavBar>
 
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/catalog" element={<Catalog />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/cart" element={<Cart />}></Route>
-            <Route path="/admin" element={<Admin />}></Route>
-          </Routes>
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />}></Route>
+              <Route path="/catalog" element={<Catalog />}></Route>
+              <Route path="/about" element={<About />}></Route>
+              <Route path="/cart" element={<Cart />}></Route>
+              <Route path="/admin" element={<Admin />}></Route>
+            </Routes>
+          </main>
 
           <Footer></Footer>
         </BrowserRouter>
